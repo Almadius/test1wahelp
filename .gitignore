@@ -1,0 +1,12 @@
+vendor/
+
+.env
+
+cache/
+logs/
+
+*.log
+*.tmp
+
+.idea/
+*.sublime-workspace
