@@ -1,7 +1,7 @@
 <?php
-require_once 'vendor/autoload.php';
+require_once dirname(__DIR__) . '/vendor/autoload.php';
 
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__));
 $dotenv->load();
 
 return [
